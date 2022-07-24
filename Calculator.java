@@ -173,7 +173,7 @@ import java.util.Stack;
             case "/":
                 try {
                     cc.checkFenMu(num1);
-                    result = num1 / num2;
+                    result = num2 / num1;
                 }catch (CalculateException e){
                     System.out.println("分母不能为0");
                     e.printStackTrace();
